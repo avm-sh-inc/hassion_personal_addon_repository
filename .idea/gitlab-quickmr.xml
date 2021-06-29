@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="gitlab-quickmr">
+    <option name="gitLabUri" value="https://git.van.work/api/v4" />
+    <option name="defaultTargetBranch" value="master" />
+    <option name="defaultTitle" value="Запрос на слияние из {{sourceBranch}} в {{targetBranch}}" />
+    <option name="defaultDescription" value="" />
+    <option name="defaultLabels" value="" />
+    <option name="assigneesEnabled" value="false" />
+  </component>
+</project>
