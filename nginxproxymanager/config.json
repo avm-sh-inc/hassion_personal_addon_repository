@@ -5,7 +5,7 @@
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
   "url": "https://github.com/avm-sh-inc/addon-nginx-proxy-manager",
   "webui": "http://[HOST]:[PORT:81]",
-  "init": false,
+  "init": true,
   "arch": [
     "aarch64",
     "amd64",
@@ -18,11 +18,13 @@
   ],
   "hassio_api": true,
   "ports": {
+    "22/tcp": 27,
     "80/tcp": 80,
     "81/tcp": 81,
     "443/tcp": 443
   },
   "ports_description": {
+    "22tcp": "test",
     "80/tcp": "HTTP Entrance port",
     "81/tcp": "Proxy management web interface",
     "443/tcp": "HTTPS/SSL Entrance port"
