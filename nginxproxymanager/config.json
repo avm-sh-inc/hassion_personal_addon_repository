@@ -31,6 +31,5 @@
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
-  },
-  "image": "ghcr.io/hassio-addons/nginxproxymanager/{arch}"
+  }
 }
