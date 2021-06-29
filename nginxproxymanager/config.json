@@ -13,8 +13,6 @@
     "armv7",
     "i386"
   ],
-  "services": [
-  ],
   "hassio_api": true,
   "ports": {
     "80/tcp": 80,
