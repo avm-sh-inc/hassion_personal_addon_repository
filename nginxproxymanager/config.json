@@ -3,7 +3,7 @@
   "version": "0.11.0",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
-  "url": "https://github.com/hassio-addons/addon-nginx-proxy-manager",
+  "url": "https://git.sh-inc.ru/avm/addon-nginx-proxy-manager",
   "webui": "http://[HOST]:[PORT:81]",
   "init": false,
   "arch": [
@@ -14,7 +14,6 @@
     "i386"
   ],
   "services": [
-    "mysql:need"
   ],
   "hassio_api": true,
   "ports": {
