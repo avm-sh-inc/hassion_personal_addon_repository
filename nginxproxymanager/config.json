@@ -1,5 +1,5 @@
 {
-  "name": "Nginx Proxy Manager without external database",
+  "name": "1 Nginx Proxy Manager ",
   "version": "0.11.0",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
@@ -12,6 +12,9 @@
     "armhf",
     "armv7",
     "i386"
+  ],
+  "services": [
+    "mysql:need"
   ],
   "hassio_api": true,
   "ports": {
@@ -31,5 +34,6 @@
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
-  }
+  },
+  "image": "ghcr.io/hassio-addons/nginxproxymanager/{arch}"
 }
