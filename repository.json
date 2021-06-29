@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant Community Add-ons",
-  "url": "https://addons.community",
-  "maintainer": "Franck Nijhof <frenck@addons.community>"
+  "name": "Home Assistant Shade Add-ons",
+  "url": "https://git.sh-inc.ru/avm/hassion_personal_addon_repository",
+  "maintainer": "Alexander Mescheryakov <avm@sh-inc.ru>"
 }
