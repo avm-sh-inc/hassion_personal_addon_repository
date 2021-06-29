@@ -1,6 +1,6 @@
 {
-  "name": "Nginx Proxy Manager",
-  "version": "0.11.0",
+  "name": "Nginx Proxy Manager without external database",
+  "version": "0.11.1",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
   "url": "https://git.sh-inc.ru/avm/addon-nginx-proxy-manager",
