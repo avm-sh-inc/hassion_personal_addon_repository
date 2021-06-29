@@ -3,7 +3,7 @@
   "version": "0.11.1",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
-  "url": "https://git.sh-inc.ru/avm/addon-nginx-proxy-manager",
+  "url": "https://github.com/avm-sh-inc/addon-nginx-proxy-manager",
   "webui": "http://[HOST]:[PORT:81]",
   "init": false,
   "arch": [
