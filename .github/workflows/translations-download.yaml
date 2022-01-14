@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: 🏗 Set up yq
-        uses: frenck/action-setup-yq@v1.0.0
+        uses: frenck/action-setup-yq@v1.0.1
       - name: 🏗 Set up the Lokalise CLI
         uses: frenck/action-setup-lokalise@v1.0.0
       - name: ⤵️ Download translations
